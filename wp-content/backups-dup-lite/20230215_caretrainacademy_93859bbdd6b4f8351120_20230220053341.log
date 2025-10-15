@@ -1,0 +1,71 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: 20 February 2023 05:33
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.5.2
+WORDPRESS:	6.1.1
+PHP INFO:	8.2.0 | SAPI: apache2handler
+SERVER:		Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/8.2.0 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 4294967296 (512M default) 
+MEMORY STACK: 92MB
+[CTRL DUP ARCIVE] PACKAGE AS NEW ID 6 SAVED | STATUS:0
+[DUP ARCHIVE] BUILDING DATABASE
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   MYSQLDUMP
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Is Supported
+[PHP ERR][ISSUE] MSG:Creation of dynamic property DUP_Database::$sameNameTableExists is deprecated [CODE:8192|FILE:C:\xampp\htdocs\caretrainacademy\wp-content\plugins\duplicator\classes\package\class.pack.database.php|LINE:758]
+do_action('wp_ajax_duplicator_duparchive_package_build'), WP_Hook->do_action, WP_Hook->apply_filters, duplicator_duparchive_package_build, DUP_Package->runDupArchiveBuild, DUP_Database->build, DUP_Database->mysqlDump, DUP_Database->rewriteTableNameAs, DUP_Handler::error, DUP_Handler::getMessage
+SQL CREATED: 20230215_caretrainacademy_93859bbdd6b4f8351120_20230220053341_database.sql
+SQL FILE SIZE: 25.27MB (26496787)
+SQL FILE TIME: 2023-02-20 05:34:58
+SQL RUNTIME: 67.67 sec.
+[DUP ARCHIVE] VALIDATING DATABASE
+[DUP ARCHIVE] DONE DATABASE
+
+********************************************************************************
+ARCHIVE Type=DUP Mode=DupArchive
+********************************************************************************
+ARCHIVE DIR:  C:/xampp/htdocs/caretrainacademy
+ARCHIVE FILE: 20230215_caretrainacademy_93859bbdd6b4f8351120_20230220053341_archive.daf
+FILTERS: *OFF*
+DIRS:
+	not set
+FILES:
+	not set
+EXTS:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	0B
+STATS:	Dirs 0 | Files 0 | Total 0
+[DUP ARCHIVE] DONE ARCHIVE
+building installer
+[DUP ARCHIVE] DONE ARCHIVE
+COMPRESSED SIZE: 5MB
+ARCHIVE RUNTIME: 76.62 sec.
+MEMORY STACK: 94MB
+CREATE WARNINGS: No warnings.
+VALIDATION WARNINGS: No warnings.
+[DUP ARCHIVE] DONE ARCHIVE
+[DUP ARCHIVE] HAS COMPLETED CLOSING
+[DUP ARCHIVE] DUP ARCHIVE INTEGRITY CHECK
+
+********************************************************************************
+INTEGRITY CHECKS:
+********************************************************************************
+SQL FILE: 25.27MB
+INSTALLER FILE: 94.69KB
+ARCHIVE FILE: 5MB 
+EXPECTED FILE/DIRECTORY COUNT: 732
+ACTUAL FILE/DIRECTORY COUNT: 734
+
+********************************************************************************
+RECORD ID:[6]
+TOTAL PROCESS RUNTIME: 76.63 sec.
+PEAK PHP MEMORY USED: 98MB
+DONE PROCESSING => 20230215_caretrainacademy 2023-02-20 05:35:07
+
